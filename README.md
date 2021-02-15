@@ -1,3 +1,5 @@
+Assessment for Make-It-Happen. Displays data from thecocktaildb request, stores the data in a redux store, and then is displayed on the front end.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
