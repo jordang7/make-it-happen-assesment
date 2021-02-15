@@ -1,4 +1,3 @@
-import React from 'react';
 
 import {GET_COCKTAILS, COCKTAILS_ERROR} from '../types'
 import axios from 'axios';
