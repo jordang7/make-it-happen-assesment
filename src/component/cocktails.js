@@ -20,7 +20,7 @@ import {getCocktails} from '../store/actions/cocktailsActions'
                 <ul>{ (cocktails.ingredientArray).map(ingredient => <li key={ingredient.name}>{ingredient.amount} of {ingredient.name}</li>)}</ul>
                 </li>
                 <li>
-                  Instructions:{cocktails.strInstructions}
+                  Instructions: {cocktails.strInstructions}
               </li>
           </ul>
           </li>)}
