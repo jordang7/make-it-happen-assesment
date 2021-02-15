@@ -1,6 +1,5 @@
 import './App.css';
-import Cocktails from './cocktails.js'
-
+import Cocktails from './component/cocktails'
 function App() {
   return (
     <div className="App">
