@@ -1,20 +1,50 @@
 /* .App {
   text-align: center;
 } */
-
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-ul {
-  padding: 10px;
-  list-style-position: inside;
-}
 ul li {
   margin: 5px;
 }
+ul {
+  text-align: center;
+  list-style: inside;
+  list-style-type: none;
+  padding: 10px;
+  list-style-position: inside;
+  list-style-type: none;
+}
 h1 {
   text-align: center;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ing {
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.border {
+  border-bottom: 1px solid black;
+}
+.title {
+  font-weight: bold;
+}
+body {
+  background-color: lightblue;
+}
+.container {
+  border: #282c34;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

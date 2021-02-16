@@ -13,15 +13,17 @@ import {getCocktails} from '../store/actions/cocktailsActions'
 
         return (
             <div>
-                <ul>
-          { (cocktails).map(cocktails => <li key={cocktails.strDrink}> {cocktails.strDrink} <ul>
-              <li>Glass: {cocktails.strGlass}</li>
-              <li>Ingredients:
+                <ul >
+          { (cocktails).map(cocktails => <li className="border" key={cocktails.strDrink}>
+          <h3>{cocktails.strDrink} </h3>
+          <ul>
+                <li className="ing">Ingredients</li>
                 <ul>{ (cocktails.ingredientArray).map(ingredient => <li key={ingredient.name}>{ingredient.amount} of {ingredient.name}</li>)}</ul>
-                </li>
                 <li>
-                  Instructions: {cocktails.strInstructions}
+                  {cocktails.strInstructions}
               </li>
+              <li>Serve in a {cocktails.strGlass}</li>
+              <img src={cocktails.strDrinkThumb} alt={cocktails.strDrink} ></img>
           </ul>
           </li>)}
         </ul>
